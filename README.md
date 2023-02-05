@@ -16,7 +16,7 @@ Copy the sql script into the docker container
 After completion all chatbot texts should be saved in the database and `n` clusters are created (`n` can be set in the clusterer.py module).
 Each cluster contains 5 texts with their respective match percentge to the center of that cluster.
 
-# searching the existing chatbot
+# Searching the existing chatbot
 - type in a question into `search.py` and save.
 - run `python search.py`
 
